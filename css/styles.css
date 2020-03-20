@@ -1,0 +1,134 @@
+body {
+  color: #000000;
+  margin: 0;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 150%;
+}
+
+a {
+  margin: 10px;
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #d72323;
+}
+
+a:active {
+  color: #3a4750;
+}
+
+h1 {
+  color: #d72323;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Amatic SC', cursive;
+}
+
+h2 {
+  color: #d72323;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #303841;
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  line-height: 1.5;
+}
+
+hr {
+  border: dotted #3a4750 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 50px auto;
+}
+
+.top-container {
+  background-color: #3a4750;
+  position: relative;
+  padding-top: 100px;
+}
+
+.selfie {
+  height: 10em;
+  width: 10em;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #3a4750;
+  padding: 50px 0 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto;
+  text-align: left;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto;
+}
+
+.web-developer {
+  float: left;
+  margin-right: 30px;
+}
+
+.artist {
+  float: right;
+  margin-left: 30px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.icon-credit {
+  line-height: 0.5;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.btn {
+  font-family: 'Raleway', sans-serif;
+  color: #EEEEEE !important;
+  font-size: 14px;
+  padding: 10px 25px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  background: #3A4750;
+  background: linear-gradient(top,  #4A5B66,  #282E36);
+  background: -ms-linear-gradient(top,  #4A5B66,  #282E36);
+  background: -webkit-gradient(linear, left top, left bottom, from(#4A5B66), to(#282E36));
+  background: -moz-linear-gradient(top,  #4A5B66,  #282E36);
+}
+.btn:hover {
+  color: #000000 !important;
+  background: #D72323;
+}
